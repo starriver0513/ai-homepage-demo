@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AIで作ったホームページ 3本（サンプル）</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Noto Sans JP",sans-serif;background:#f4f4f1;color:#222;line-height:1.8;padding:64px 20px}
+.wrap{max-width:1040px;margin:auto}
+h1{font-size:clamp(24px,3vw,32px);font-weight:900;text-align:center}
+.sub{text-align:center;color:#666;margin:8px 0 44px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+a.card{display:block;border-radius:18px;overflow:hidden;text-decoration:none;color:inherit;background:#fff;box-shadow:0 10px 30px rgba(0,0,0,.06);transition:.2s}
+a.card:hover{transform:translateY(-4px)}
+.thumb{height:170px;display:grid;place-items:center;font-size:24px;font-weight:900;letter-spacing:.08em}
+.c1 .thumb{background:linear-gradient(135deg,#e7efe6,#c4d8cb);color:#2c4d40}
+.c2 .thumb{background:linear-gradient(135deg,#3a271b,#1c1511);color:#d9a35b;font-family:serif}
+.c3 .thumb{background:linear-gradient(135deg,#e8f0fe,#b8cdf3);color:#14284b}
+.body{padding:18px 20px 22px}
+.body b{display:block;font-size:17px}
+.body span{font-size:14px;color:#666}
+.note{text-align:center;color:#888;font-size:13px;margin-top:40px}
+@media(max-width:800px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>AIで作ったホームページ 3本</h1>
+  <p class="sub">業種ごとに、色・写真・雰囲気を変えています。</p>
+  <div class="grid">
+    <a class="card c1" href="seitai/"><div class="thumb">ほぐし間</div><div class="body"><b>整体院</b><span>デスクワークの肩こり専門</span></div></a>
+    <a class="card c2" href="cafe/"><div class="thumb">灯し喫茶</div><div class="body"><b>カフェ</b><span>自家焙煎珈琲と焼き菓子</span></div></a>
+    <a class="card c3" href="consul/"><div class="thumb">ミチシルベ経営室</div><div class="body"><b>ひとり社長のコンサル会社</b><span>集客と仕組みづくりの伴走</span></div></a>
+  </div>
+  <p class="note">3本とも動画用に作った架空のサンプルです。実在の店舗・会社・人物とは関係ありません。</p>
+</div>
+</body>
+</html>
